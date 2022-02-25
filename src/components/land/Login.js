@@ -1,18 +1,37 @@
 import React from 'react';
 import './login.css';
-
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
 function Login() {
   return (
-    <div>
-        <h1 className='Hello mg-5'>Hello</h1>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+    <div className='LandingPage'>
+       <div className="Logo"><a href="#">Univer<span>City.</span></a></div>
+       <div className="container">
+            <div className="selectText">Login as :</div>
+            <div className="selectUser">
+
+              <div class="card">
+                  <div class="box">
+                      <i class="fas fa-paint-brush"></i>
+                      <div class="text">Adiministration</div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="box">
+                      <i class="fas fa-paint-brush"></i>
+                      <div class="text">Enseignant</div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="box">
+                      <i class="fas fa-paint-brush"></i>
+                      <div class="text">Etudiant</div>
+                  </div>
+                </div>
+
+            </div>
+       </div>
     </div>
   )
 }

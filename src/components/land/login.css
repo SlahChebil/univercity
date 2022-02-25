@@ -1,3 +1,119 @@
-.Hello{
-    color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&family=Varela+Round&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
+.LandingPage{
+    background-image:linear-gradient(to bottom right, rgb(125, 190, 233), rgba(36, 113, 163));
+    height: 100vh;
+}
+
+/* Logo styling */
+.Logo{
+    padding: 10px 0 0 10px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.Logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Logo a span{
+    color: #222;
+    font-weight: 600;
+    transition: all 0.3s ease ;
+}
+
+.container{
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    width: 900px;
+    height: 450px;
+    /* position: relative; */
+    padding: 0px;
+    align-items: center;
+    margin: 55px 0 50px 220px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.text{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.selectText{
+    font-family: 'Ubuntu',sans-serif;
+    padding: 25px 0 0;
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+}
+
+
+
+.selectUser{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:100px ;
+    margin-left: 50px;
+    max-width:800px;
+    color: #fff;
+    
+}
+.selectUser .card{
+    width: calc(33% - 20px);
+    background: lightblue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.selectUser .card:hover{
+    color: #fff;
+    background: #2471A3;
+}
+
+.selectUser .card .box{
+    transition: all 0.3s ease;
+}
+
+.selectUser .card:hover .box{
+    transform: scale(1.05);
+}
+
+.selectUser .card i{
+    font-size: 50px ;
+    color: #273746  ;
+    transition: color 0.3s ease;
+}
+
+.selectUser  .card:hover i {
+    color: #fff;
+}
+
+.selectUser .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
